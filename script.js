@@ -15,6 +15,28 @@ const selector = listName => {
     }
 };
 
-let finalMessage = `test message`;
+const blessing = selector('blessings');
+const lifeAspect1 = selector('lifeAspects');
+const aspectPrediction1 = selector('aspectPredictions');
+const lifeAspect2 = selector('lifeAspects');
+const aspectPrediction2 = selector('aspectPredictions');
+const lifeAspect3 = selector('lifeAspects');
+const aspectPrediction3 = selector('aspectPredictions');
 
-console.log(selector('blessings'));
+
+let finalMessage = `
+********************
+# ${blessing}
+********************
+
+## ${lifeAspect1}:
+> ${aspectPrediction1}
+
+## ${lifeAspect2}:
+> ${aspectPrediction2}
+
+## ${lifeAspect3}:
+> ${aspectPrediction3}
+`;
+
+console.log(finalMessage);
