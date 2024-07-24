@@ -9,8 +9,9 @@ A script that generates a random [o-mikuji](https://en.wikipedia.org/wiki/O-miku
 
 ## Setup
 
-To run this project dowload the script locally and run the script using node:
+To run this project dowload the script locally and run the script using node
 
+for example:
 ```
 $ cd ../folder
 $ node script.js
